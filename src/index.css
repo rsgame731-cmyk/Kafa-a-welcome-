@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-arabic);
+  }
+
+  body {
+    background-color: #090A0C;
+    color: #E2E4E9;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle copper gradient utilities */
+.copper-gradient-text {
+  background: linear-gradient(135deg, #F5D3B3 0%, #C88A58 50%, #E3A87B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.copper-border-glow {
+  box-shadow: 0 0 25px -5px rgba(200, 138, 88, 0.12);
+}
+
+.copper-button-gradient {
+  background: linear-gradient(180deg, #D4935F 0%, #B37542 100%);
+}
+
+.copper-button-gradient:hover {
+  background: linear-gradient(180deg, #E0A06D 0%, #BF804D 100%);
+}
+
+/* Restrained scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #090A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2026;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2C2E38;
+}

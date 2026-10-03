@@ -1,0 +1,6 @@
+{
+  "name": "Kafa’a | كفاءة",
+  "description": "منصة مهنية ناشئة في طور البناء — نبني كفاءة معكم لهوية وشبكة مهنية هادفة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
